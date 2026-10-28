@@ -23,5 +23,4 @@ public class Prestamo {
     private Long id;
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucionMaxima;
-
 }

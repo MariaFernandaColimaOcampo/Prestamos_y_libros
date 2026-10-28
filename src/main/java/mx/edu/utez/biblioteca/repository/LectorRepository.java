@@ -1,6 +1,9 @@
 package mx.edu.utez.biblioteca.repository;
 
+import mx.edu.utez.biblioteca.model.Lector.Lector;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-
-public class LectorRepository {
+@Repository
+public interface LectorRepository extends JpaRepository<Lector, Long> {
 }
